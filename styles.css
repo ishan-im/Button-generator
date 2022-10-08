@@ -1,0 +1,59 @@
+body {
+    color: #555;
+    font-family: Segoe UI, Arial, sans-serif;
+  }
+  
+  #container {
+    width: 594px;
+    margin: auto;
+  }
+  
+  #container div,
+  #container form {
+    float: left;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 600px;
+  }
+  
+  #inputForm {
+    width: 300px;
+    border-right: 1px solid #333;
+    height: 500px;
+  }
+  
+  input {
+    border: 1px solid #333;
+    margin-top: 25px;
+    height: 25px;
+    padding: 2px;
+  }
+  
+  input:nth-child(1n+4) {
+    width: 100px;
+  }
+  
+  #outputForm {
+    margin-left: 50px;
+    width: 240px;
+  }
+  
+  #demo {
+    width: 242px;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  
+  textarea {
+    width: 242px;
+    height: 100px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+  }
+  
+  #codeOutput {
+    margin-top: 25px;
+  }
